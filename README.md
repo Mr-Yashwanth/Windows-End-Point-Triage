@@ -16,8 +16,8 @@ netstat -naob | findstr /V/I/C:"chrome" /C:"msedge" /C:"firefox"
 ```
 
 #### Technical Parameter Breakdown:
-(-nab: Shows the network connections and the name of the program (like [cmd.exe]).
--naob: Shows the network connections, the name of the program, AND the unique Process ID (PID) number assigned to that specific running instance of the program.)
+(* -nab: Shows the network connections and the name of the program (like [cmd.exe]).
+ * -naob: Shows the network connections, the name of the program, AND the unique Process ID (PID) number assigned to that specific running instance of the program.)
 
 * **/V**: Modifies the `findstr` block to perform an **inverted match**, discarding lines containing the browser strings to lower data noise.
 * **/I**: Enforces **case-insensitivity**, preventing manual evasion attempts where an attacker might run a process named `ChRoMe.exe`.
