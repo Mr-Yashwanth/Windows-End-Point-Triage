@@ -1,6 +1,5 @@
 
-# Windows Endpoint Triage Playbook & Secure Security Lab
-
+# Windows Endpoint Triage Playbook
 A comprehensive, low-artifact Incident Response (IR) triage playbook designed to rapidly investigate compromised Windows endpoints, identify active threats, and audit historical security logs using native tools.
 
 ---
